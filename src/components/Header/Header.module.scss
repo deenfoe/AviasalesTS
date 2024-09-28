@@ -1,0 +1,19 @@
+.img {
+  width: 60px;
+  height: 60px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Центрирует содержимое по горизонтали */
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+@media (max-width: 760px) {
+  .header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
