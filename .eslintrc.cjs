@@ -60,6 +60,7 @@ module.exports = {
         ignorePropertyModificationsFor: ['state'],
       },
     ],
+    '@typescript-eslint/no-non-null-assertion': 'off',
   },
   settings: {
     'import/resolver': {
